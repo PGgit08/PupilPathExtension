@@ -1,0 +1,11 @@
+{
+	"name": "PupilPath 2 Sheets",
+	"description": "Converts PupilPath grades to Google Sheets.",
+	"version": "1.0",
+	"manifest_version": 2,
+	"content_scripts":
+	[{
+		"matches": ["https://pupilpath.skedula.com/Home/Dashboard/", "https://pupilpath.skedula.com/home/dashboard/"],
+		"js": ["content.js"]
+	}]
+}
